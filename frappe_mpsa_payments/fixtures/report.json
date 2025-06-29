@@ -1,0 +1,96 @@
+[
+ {
+  "add_total_row": 1,
+  "add_translate_data": 0,
+  "columns": [],
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Report",
+  "filters": [],
+  "is_standard": "Yes",
+  "javascript": null,
+  "json": null,
+  "letter_head": "Default",
+  "modified": "2025-06-12 23:25:12.501684",
+  "module": "Frappe Mpsa Payments",
+  "name": "C2B Reconciliation Report",
+  "prepared_report": 0,
+  "query": null,
+  "ref_doctype": "Mpesa C2B Payment Register",
+  "reference_report": null,
+  "report_name": "C2B Reconciliation Report",
+  "report_script": null,
+  "report_type": "Script Report",
+  "roles": [
+   {
+    "parent": "C2B Reconciliation Report",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "System Manager"
+   },
+   {
+    "parent": "C2B Reconciliation Report",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Accounts User"
+   },
+   {
+    "parent": "C2B Reconciliation Report",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Accounts Manager"
+   },
+   {
+    "parent": "C2B Reconciliation Report",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Sales User"
+   }
+  ],
+  "timeout": 0
+ },
+ {
+  "add_total_row": 1,
+  "add_translate_data": 0,
+  "columns": [],
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Report",
+  "filters": [],
+  "is_standard": "Yes",
+  "javascript": null,
+  "json": null,
+  "letter_head": null,
+  "modified": "2025-06-27 09:50:03.650039",
+  "module": "Frappe Mpsa Payments",
+  "name": "B2C Disbursement Summary",
+  "prepared_report": 0,
+  "query": null,
+  "ref_doctype": "B2C Payment Disbursement",
+  "reference_report": null,
+  "report_name": "B2C Disbursement Summary",
+  "report_script": null,
+  "report_type": "Script Report",
+  "roles": [
+   {
+    "parent": "B2C Disbursement Summary",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "System Manager"
+   },
+   {
+    "parent": "B2C Disbursement Summary",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Accounts Manager"
+   },
+   {
+    "parent": "B2C Disbursement Summary",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "HR Manager"
+   }
+  ],
+  "timeout": 0
+ }
+]

@@ -19,6 +19,7 @@ fixtures = [
             ["module", "=", "Frappe Mpsa Payments"],
         ],
     },
+    {"doctype": "Report", "filters": [["module", "=", "Frappe Mpsa Payments"]]}
 ]
 
 
